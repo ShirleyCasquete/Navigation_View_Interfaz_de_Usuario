@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_subheader1"
+        android:title="RECIENTES">
+        <menu>
+            <item
+                android:id="@+id/navigation_subheader2"
+                android:icon="@drawable/iconrecibidos"
+                android:title="Todos los recibidos" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/iconprincipal"
+            android:title="Principal"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/iconpromo"
+            android:title="Promociones"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/iconsocial"
+            android:title="Social"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Todas las etiquetas">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/icondestacados"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/iconimportantes"
+                android:title="Importantes"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/iconenviados"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/iconsalida"
+                android:title="Bandeja de salida"/>
+            <item
+                android:id="@+id/menu_opcion_6"
+                android:icon="@drawable/iconborrador"
+                android:title="Borradores"/>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/iconspam"
+                android:title="Spam"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader3"
+        android:title="Aplicaciones de Google">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_9"
+                android:icon="@drawable/iconcalendario"
+                android:title="Calendario"/>
+            <item
+                android:id="@+id/menu_opcion_10"
+                android:icon="@drawable/iconcontactos"
+                android:title="Contactos"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader4"
+        android:title="Ajustes">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_11"
+                android:icon="@drawable/iconconfiguracion"
+                android:title="Configuración"/>
+            <item
+                android:id="@+id/menu_opcion_12"
+                android:icon="@drawable/iconayuda"
+                android:title="Ayuda y comentarios"/>
+        </menu>
+    </item>
+</menu>
